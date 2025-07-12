@@ -1,0 +1,63 @@
+{
+  "name": "Kokkoro-Natsume",
+  "version": "1.0.0",
+  "description": "A versatile WhatsApp bot powered by Node.js and Baileys, designed for multi-functional tasks.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "pm2 start marisel.js --attach --name Kokkoro-Natsume",
+    "stop": "pm2 stop Kokkoro-Natsume",
+    "restart": "pm2 restart Kokkoro-Natsume"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "multi-device",
+    "baileys",
+    "Kokkoro-Natsume"
+  ],
+  "author": "Thugnificent",
+  "license": "AGPL-3.0 (Affero GPL)",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "american-english": "^1.0.1",
+    "an-array-of-english-words": "^2.0.0",
+    "awesome-phonenumber": "^2.64.0",
+    "axios": "^1.6.8",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0",
+    "discord-mongoose-economy": "^1.2.0",
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.3.1",
+    "fluent-ffmpeg": "^2.1.3",
+    "form-data": "^4.0.0",
+    "fs-extra": "^10.0.0",
+    "is-word": "^1.0.4",
+    "javascript-obfuscator": "^4.1.1",
+    "jimp": "^0.16.1",
+    "jsdom": "^16.4.0",
+    "lowdb": "^2.1.0",
+    "mathjs": "^11.3.0",
+    "moment-timezone": "^0.5.43",
+    "mongoose": "^6.2.1",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.6.11",
+    "node-webpmux": "^3.1.7",
+    "pdfkit": "^0.13.0",
+    "performance-now": "^2.1.0",
+    "pino": "^7.0.5",
+    "pm2": "^5.2.0",
+    "simple-git": "^3.27.0",
+    "string-similarity": "^4.0.4",
+    "translate-google-api": "^1.0.4",
+    "uuid": "^9.0.1",
+    "wa-sticker-formatter": "^4.4.4",
+    "yargs": "^17.7.2",
+    "yt-search": "^2.10.6",
+    "ytdl-core": "^4.11.5",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "github:alibase77/XD-Baileys"
+  }
+}

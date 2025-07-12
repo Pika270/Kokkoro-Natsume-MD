@@ -1,0 +1,139 @@
+{
+  "name": "ƘƠƘƘƠƦƠ ǸƛƬƧƲMЄ ᗰƊ 🌸",
+  "description": "A feature-rich WhatsApp bot created by Thugnificent using Baileys.",
+  "logo": "https://i.ibb.co/F4Rgvw0g/Img2url-bot.jpg",
+  "keywords": ["whatsapp-bot", "multi-device", "baileys", "automation", "kokkoro"],
+  "success_url": "/",
+  "stack": "heroku-24",
+  "env": {
+    "SESSION_ID": {
+      "description": "Paste your SESSION_ID here to activate the bot.",
+      "value": ""
+    },
+    "PREFIX": {
+      "description": "Choose the prefix for your bot commands (examples: ., !, #, $, +, ~).",
+      "value": "."
+    },
+    "AUTO_REACT": {
+      "description": "Enable or disable auto reactions to messages.",
+      "value": "false"
+    },
+    "AUTO_STATUS_REACT": {
+      "description": "Enable reactions to WhatsApp statuses.",
+      "value": "false"
+    },
+    "ANTIDELETE": {
+      "description": "Set to true if you want to see deleted messages.",
+      "value": "false"
+    },
+    "WELCOME": {
+      "description": "Enable welcome messages in group chats.",
+      "value": "false"
+    },
+    "AUTO_VIEW_STATUS": {
+      "description": "Enable to auto-view WhatsApp status updates.",
+      "value": "false"
+    },
+    "CHATBOT": {
+      "description": "Turn this on for chatbot-style auto replies.",
+      "value": "false"
+    },
+    "AUTO_READ_MESSAGES": {
+      "description": "Set to true for the bot to auto-read all messages.",
+      "value": "false"
+    },
+    "AUTO_TYPING": {
+      "description": "Enable auto-typing indicator.",
+      "value": "false"
+    },
+    "AUTO_RECORD": {
+      "description": "Enable auto-recording indicator.",
+      "value": "false"
+    },
+    "AUTO_READ_ALL": {
+      "description": "Automatically read all chats.",
+      "value": "false"
+    },
+    "AUTO_READ_GC": {
+      "description": "Automatically read group chats.",
+      "value": "false"
+    },
+    "AUTO_READ_PM_AND_GC": {
+      "description": "Automatically read both PM and group chats.",
+      "value": "false"
+    },
+    "ANTICALL": {
+      "description": "Block users who try to call the bot.",
+      "value": "false"
+    },
+    "GROUP_EVENT": {
+      "description": "Enable group event handling (welcome/leave).",
+      "value": "false"
+    },
+    "AUTOSWVIEW": {
+      "description": "Automatically view statuses.",
+      "value": "false"
+    },
+    "MAX_WARNINGS": {
+      "description": "Maximum number of warnings before taking action.",
+      "value": "3"
+    },
+    "ANTIBADWORD": {
+      "description": "Enable filter for offensive words.",
+      "value": "false"
+    },
+    "ANTISPAM": {
+      "description": "Enable spam protection.",
+      "value": "false"
+    },
+    "ANTILINK": {
+      "description": "Enable link protection.",
+      "value": "false"
+    },
+    "ANTIBUG": {
+      "description": "Enable antibug mode.",
+      "value": "true"
+    },
+    "AUTO_REACT_MODE": {
+      "description": "Set auto-react mode: dm, gc, both, or off.",
+      "value": "dm"
+    },
+    "AUTO_GREET": {
+      "description": "Enable auto greeting replies.",
+      "value": "false"
+    },
+    "STATUS_REACT_EMOJI": {
+      "description": "Emoji used for status reaction.",
+      "value": "🍄"
+    },
+    "OWNER_NUMBER": {
+      "description": "Add owner number(s) without the plus sign. Use commas for multiple numbers.",
+      "value": "2347079059033"
+    },
+    "OWNER_NAME": {
+      "description": "The name of the bot owner.",
+      "value": "꧁ঔৣ☬✞_𝕳𝖀__𝕴𝕱𝕴_𝕰__✞☬ঔৣ꧂"
+    },
+    "BOT_NAME": {
+      "description": "Your bot's display name.",
+      "value": "ƘƠƘƘƠƦƠ ǸƛƬƧƲMЄ ᗰƊ 🌸"
+    },
+    "AUTHOR": {
+      "description": "Name to display on sticker packs.",
+      "value": "꧁ঔৣ☬✞_𝕳𝖀__𝕴𝕱𝕴_𝕰__✞☬ঔৣ꧂"
+    },
+    "LOCATION": {
+      "description": "Bot owner location (for fun metadata).",
+      "value": "Africa, Nigeria, Delta state"
+    },
+    "PUBLIC": {
+      "description": "Choose whether your bot is public or private.",
+      "value": "public"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ]
+}
