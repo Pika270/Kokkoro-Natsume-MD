@@ -1,0 +1,142 @@
+{
+  "bot-name": "YΛMΛƬӨ MƊ 🌸",
+  "description": "A versatile WhatsApp bot powered by Node.js and Baileys, designed for multi-functional tasks.",
+  "logo": "https://i.ibb.co/Kz5NSXXC/Img2url-bot.jpg",
+  "keywords": [
+    "whatsapp-bot",
+    "multi-device",
+    "baileys",
+    "automation",
+    "Natsume"
+  ],
+  "documentation-link": "https://yamato-pair.onrender.com",
+  "owner-verification": "palmerstonez24@gmail.com",
+  "env": {
+    "SESSION_ID": {
+      "description": "Paste your SESSION_ID here to activate the bot.",
+      "value": "",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Choose the prefix for your bot commands (examples: ., !, #, $, +, ~).",
+      "value": ".",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "The name of the bot owner.",
+      "value": "꧁ঔৣ☬✞𝕳𝖀__𝕴𝕱𝕴_𝕰_✞☬ঔৣ꧂"
+    },
+    "OWNER_NUMBER": {
+      "description": "Add owner number(s) without the plus sign. Use commas for multiple numbers.",
+      "value": "2347079059033"
+    },
+    "AUTHOR": {
+      "description": "Name to display on sticker packs.",
+      "value": "꧁ঔৣ☬✞𝕳𝖀__𝕴𝕱𝕴_𝕰_✞☬ঔৣ꧂"
+    },
+    "LOCATION": {
+      "description": "Bot owner location (for fun metadata).",
+      "value": "Africa, Nigeria, Delta state"
+    },
+    "BOT_NAME": {
+      "description": "Name of the bot.",
+      "value": "YΛMΛƬӨ MƊ 🌸"
+    },
+    "STICKER_NAME": {
+      "description": "Name for the sticker pack.",
+      "value": "YΛMΛƬӨ MƊ 🌸"
+    },
+    "PUBLIC": {
+      "description": "Choose whether your bot is public or private.",
+      "value": "public"
+    },
+    "AUTO_REACT": {
+      "description": "Enable or disable auto reactions to messages.",
+      "value": "false"
+    },
+    "AUTO_REACT_MODE": {
+      "description": "Set auto-react mode: dm, gc, both, or off.",
+      "value": "dm"
+    },
+    "AUTO_STATUS_REACT": {
+      "description": "Enable reactions to WhatsApp statuses.",
+      "value": "false"
+    },
+    "STATUS_REACT_EMOJI": {
+      "description": "Emoji used for status reaction.",
+      "value": "🍄"
+    },
+    "ANTIDELETE": {
+      "description": "Set to true if you want to see deleted messages.",
+      "value": "false"
+    },
+    "AUTO_VIEW_STATUS": {
+      "description": "Enable to auto-view WhatsApp status updates.",
+      "value": "false"
+    },
+    "AUTOSVIEW": {
+      "description": "Automatically view statuses.",
+      "value": "false"
+    },
+    "CHATBOT": {
+      "description": "Turn this on for chatbot-style auto replies.",
+      "value": "false"
+    },
+    "AUTO_READ_MESSAGES": {
+      "description": "Enable auto-reading of messages in groups.",
+      "value": "false"
+    },
+    "AUTO_READ_ALL": {
+      "description": "Enable auto-reading of all messages.",
+      "value": "false"
+    },
+    "AUTO_READ_PM_NGC": {
+      "description": "Enable auto-reading of private messages and non-group chats.",
+      "value": "false"
+    },
+    "AUTO_TYPING": {
+      "description": "Enable auto-typing indicator.",
+      "value": "false"
+    },
+    "AUTO_RECORD": {
+      "description": "Enable auto-recording indicator.",
+      "value": "false"
+    },
+    "AUTO_RECORDING": {
+      "description": "Make it true if you want auto recording indicator.",
+      "value": "false"
+    },
+    "AUTO_REPLY": {
+      "description": "Make it true if you want automatic reply.",
+      "value": "false"
+    },
+    "ANTI_LINK": {
+      "description": "Enable link protection in groups.",
+      "value": "false"
+    },
+    "ANTICALL": {
+      "description": "Block users who try to call the bot.",
+      "value": "false"
+    },
+    "MAX_WARNINGS": {
+      "description": "Maximum number of warnings before taking action.",
+      "value": "3"
+    },
+    "AVAILABLE": {
+      "description": "Set bot availability status.",
+      "value": "true"
+    },
+    "WELCOME": {
+      "description": "Enable welcome messages for new group members.",
+      "value": "false"
+    },
+    "AUTO_BIO": {
+      "description": "Enable automatic bio updates.",
+      "value": "false"
+    },
+    "AUTO_BIO_INTERVAL": {
+      "description": "Interval for auto bio updates (in minutes).",
+      "value": ""
+    }
+  }
+}
